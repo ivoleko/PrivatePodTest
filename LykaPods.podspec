@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LykaPods'
-  s.version          = '3.6'
+  s.version          = 'main'
   s.authors          = 'Lyka'
   s.summary          = 'All Lyka Pods for each module.'
   s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
