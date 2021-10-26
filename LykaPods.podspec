@@ -10,10 +10,9 @@ Pod::Spec.new do |s|
   s.name             = 'LykaPods'
   s.version          = '3.6'
   s.summary          = 'All Lyka Pods for each module.'
-  s.homepage         = 'https://github.com/ivoleko/LykaPods'
-  s.source           = { :git => 'https://github.com/ivoleko/LykaPods.git', :tag => s.version.to_s }
+  s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
+  s.source           = { :git => 'https://github.com/ivoleko/PrivatePodTest.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
-  s.source_files = 'LykaPods/Classes/**/*'
 
   s.default_subspec = 'Main-iOS'
 
