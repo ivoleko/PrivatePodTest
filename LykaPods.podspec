@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Lyka'
   s.summary          = 'All Lyka Pods for each module.'
   s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
-  s.source           = { :git => 'https://github.com/ivoleko/PrivatePodTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ivoleko/PrivatePodTest.git', :branch => 'main' }
   s.ios.deployment_target = '11.0'
 
   s.default_subspec = 'Main-iOS'
