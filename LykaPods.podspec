@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LykaPods'
   s.version          = '3.6'
+  s.authors          = 'Lyka'
   s.summary          = 'All Lyka Pods for each module.'
   s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
   s.source           = { :git => 'https://github.com/ivoleko/PrivatePodTest.git', :tag => s.version.to_s }
