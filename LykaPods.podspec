@@ -59,8 +59,8 @@ Pod::Spec.new do |s|
     ss.dependency "LykaPods/Commons-iOS"
     ss.dependency "LykaPods/Facebook-SDK"
     ss.dependency "LykaPods/Wallet-iOS"
-    ss.dependency "GoogleMaps"
-    ss.dependency "GooglePlaces"
+    ss.dependency "GoogleMaps", '3.10'
+    ss.dependency "GooglePlaces", '3.10'
   end
 
 
