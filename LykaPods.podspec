@@ -127,7 +127,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Kingfisher', '6.3.0'
     ss.dependency 'Alamofire', '~> 4.9.1'
     ss.dependency 'IQKeyboardManagerSwift', '6.5.6'
-    ss.dependency 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.7/Giphy.podspec'
+    #ss.dependency 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.7/Giphy.podspec'
   end
 
   s.subspec "MirrorFly_SDK" do |ss|
@@ -155,7 +155,7 @@ Pod::Spec.new do |s|
     ss.dependency 'URLEmbeddedView', '0.18.0' # To load preview view for specified link while sharing
     ss.dependency 'GoogleMaps', '3.10' # To show location when sharing location messages
     ss.dependency 'PocketSVG', '~> 2.0' # Used to show SVG image files
-    ss.dependency 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.7/Giphy.podspec'
+    #ss.dependency 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.7/Giphy.podspec'
     ss.dependency 'iCloudDocumentSync', '7.4.1' # Drive backup and restore Sync in iCloud
   end
 
