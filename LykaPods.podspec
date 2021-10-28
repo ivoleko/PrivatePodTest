@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LykaPods'
-  s.version          = '3.6'
+  s.version          = '1.0'
   s.authors          = 'Lyka'
   s.summary          = 'All Lyka Pods for each module.'
   s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
@@ -41,7 +41,6 @@ Pod::Spec.new do |s|
     ss.dependency 'FBSDKLoginKit', '~> 7.0'
     ss.dependency 'FBSDKShareKit', '~> 7.0'
   end
-
 
 
   #MARK: Lyka modules
@@ -145,20 +144,20 @@ Pod::Spec.new do |s|
   s.subspec "ChatIOSSkeleton" do |ss|
     ss.dependency 'LykaPods/Commons-iOS'
     ss.dependency 'LykaPods/Firebase'
-    ss.dependency 'JTSImageViewController'
-    ss.dependency 'KILabel'
+    ss.dependency 'JTSImageViewController', '1.5.1' # To show Image preview. In Photo Viewer (But Not used)
+    ss.dependency 'KILabel', '1.0.1' # To show links within text for chat messages
     ss.dependency 'MenuItemKit', '3.2.2' # To show menu when long press message like copy,paste
-    ss.dependency 'FZAccordionTableView' # To show expand and collapse in Chat message info
+    ss.dependency 'FZAccordionTableView', '0.2.3' # To show expand and collapse in Chat message info
     ss.dependency 'GPUImage', '~> 0.1' # To show blurred Thumb image when image is not yet downloaded
-    ss.dependency 'KKPinCodeTextField' # To show OTP enter View
-    ss.dependency 'TOCropViewController' # To crop image for setting chat Theme.
+    ss.dependency 'KKPinCodeTextField', '1.0.0' # To show OTP enter View
+    ss.dependency 'TOCropViewController', '2.6.0' # To crop image for setting chat Theme.
     ss.dependency 'GrowingTextViewHandler', '~> 1.0.3' # To grow text when user types in chat page
-    ss.dependency 'PulsingHalo' # To show Bubble view for Calls when he goes away from Call View Controller
-    ss.dependency 'URLEmbeddedView' # To load preview view for specified link while sharing
+    ss.dependency 'PulsingHalo', '0.2.10' # To show Bubble view for Calls when he goes away from Call View Controller
+    ss.dependency 'URLEmbeddedView', '0.18.0' # To load preview view for specified link while sharing
     ss.dependency 'GoogleMaps', '3.10' # To show location when sharing location messages
     ss.dependency 'PocketSVG', '~> 2.0' # Used to show SVG image files
     ss.dependency 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.7/Giphy.podspec'
-    ss.dependency 'iCloudDocumentSync' # Drive backup and restore Sync in iCloud
+    ss.dependency 'iCloudDocumentSync', '7.4.1' # Drive backup and restore Sync in iCloud
   end
 
 
@@ -213,26 +212,22 @@ Pod::Spec.new do |s|
     ss.dependency 'LykaPods/Notification-iOS'
     ss.dependency 'LykaPods/Onboarding-iOS'
     ss.dependency 'LykaPods/Rankings-iOS'
+    ss.dependency 'LykaPods/Shop-iOS'
     ss.dependency 'LykaPods/Ultra-rate-iOS'
     ss.dependency 'LykaPods/Video-Cache-iOS'
-    ss.dependency 'LykaPods/Shop-iOS'
+    ss.dependency 'LykaPods/Wallet-iOS'
 
-    ss.dependency 'UICircularProgressRing'
-    ss.dependency 'ActiveLabel'
-    ss.dependency 'CreditCardForm'
-    ss.dependency 'emojidataios'
-    ss.dependency 'Hero'
-    ss.dependency 'PryntTrimmerView'
-    ss.dependency 'SAMKeychain'
+    ss.dependency 'UICircularProgressRing', '7.0.0'
+    ss.dependency 'ActiveLabel', '1.1.0'
+    ss.dependency 'CreditCardForm', '0.2.0'
+    ss.dependency 'emojidataios', '0.6.0'
+    ss.dependency 'Hero', '1.5.0'
+    ss.dependency 'PryntTrimmerView', '4.0.2'
+    ss.dependency 'SAMKeychain', '1.5.3'
     ss.dependency 'Stripe', '19.1.1'
     ss.dependency 'Instabug','~> 10.0.3'
-    ss.dependency 'AWSS3'
-    ss.dependency 'AWSCore'
-
-
-
-
-
+    ss.dependency 'AWSS3', '2.19.1'
+    ss.dependency 'AWSCore', '2.19.1'
   end
 
 end
