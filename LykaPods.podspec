@@ -114,8 +114,8 @@ Pod::Spec.new do |s|
     ss.dependency 'LykaPods/Core-iOS'
     ss.dependency 'LykaPods/Commons-iOS'
     ss.dependency 'SDWebImageWebPCoder'
-    ss.dependency 'ImageViewer.swift', :git => 'https://github.com/lykaeleazer/ImageViewer.git'
-    ss.dependency 'ImageViewer.swift/Fetcher', :git => 'https://github.com/lykaeleazer/ImageViewer.git'
+    #ss.dependency 'ImageViewer.swift', :git => 'https://github.com/lykaeleazer/ImageViewer.git'
+    #ss.dependency 'ImageViewer.swift/Fetcher', :git => 'https://github.com/lykaeleazer/ImageViewer.git'
   end
 
   s.subspec "Community-iOS" do |ss|
