@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "Firebase-Lyka" do |ss|
-    ss.dependency 'LykaPods/FirebaseAnalytics-Lyka', '7.11'
+    ss.dependency 'LykaPods/FirebaseAnalytics-Lyka'
     ss.dependency 'FirebaseCore', '7.11'
     ss.dependency 'FirebaseAuth', '7.11'
     ss.dependency 'FirebaseDynamicLinks', '7.11'
