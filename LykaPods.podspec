@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
   s.default_subspec = 'Main-iOS'
 
 
-  s.subspec "FirebaseAnalytics" do |ss|
+  s.subspec "FirebaseAnalytics-Lyka" do |ss|
     ss.dependency 'Firebase/Analytics', '7.11'
   end
 
-  s.subspec "Firebase" do |ss|
-    ss.dependency 'LykaPods/FirebaseAnalytics', '7.11'
+  s.subspec "Firebase-Lyka" do |ss|
+    ss.dependency 'LykaPods/FirebaseAnalytics-Lyka', '7.11'
     ss.dependency 'FirebaseCore', '7.11'
     ss.dependency 'FirebaseAuth', '7.11'
     ss.dependency 'FirebaseDynamicLinks', '7.11'
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Crashlytics', '3.14.0'
   end
 
-  s.subspec "Facebook-SDK" do |ss|
+  s.subspec "Facebook-SDK-Lyka" do |ss|
     ss.dependency 'FBSDKCoreKit', '~> 7.0'
     ss.dependency 'FBSDKLoginKit', '~> 7.0'
     ss.dependency 'FBSDKShareKit', '~> 7.0'
@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
   s.subspec "Onboarding-iOS" do |ss|
     ss.dependency "LykaPods/Core-iOS"
     ss.dependency "LykaPods/Commons-iOS"
-    ss.dependency "LykaPods/Facebook-SDK"
+    ss.dependency "LykaPods/Facebook-SDK-Lyka"
     ss.dependency "LykaPods/Wallet-iOS"
     ss.dependency "GoogleMaps", '3.10'
     ss.dependency "GooglePlaces", '3.10'
@@ -142,7 +142,7 @@ Pod::Spec.new do |s|
 
   s.subspec "ChatIOSSkeleton" do |ss|
     ss.dependency 'LykaPods/Commons-iOS'
-    ss.dependency 'LykaPods/Firebase'
+    ss.dependency 'LykaPods/Firebase-Lyka'
     ss.dependency 'JTSImageViewController', '1.5.1' # To show Image preview. In Photo Viewer (But Not used)
     ss.dependency 'KILabel', '1.0.1' # To show links within text for chat messages
     ss.dependency 'MenuItemKit', '3.2.2' # To show menu when long press message like copy,paste
@@ -192,7 +192,7 @@ Pod::Spec.new do |s|
     ss.dependency 'AgoraRtcEngine_iOS', '3.5.0.2'
     ss.dependency 'AGECamera', '1.0.3'
     #Mark - Social (optional)
-    ss.dependency 'LykaPods/Facebook-SDK'
+    ss.dependency 'LykaPods/Facebook-SDK-Lyka'
     ss.dependency 'TwitterKit5', '5.2.0'
     ss.dependency 'TwitterCore', '3.2.0'
 
