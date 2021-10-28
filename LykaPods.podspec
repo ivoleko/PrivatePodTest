@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ivoleko/PrivatePodTest'
   s.source           = { :git => 'https://github.com/ivoleko/PrivatePodTest.git', :branch => 'main' }
   s.ios.deployment_target = '11.0'
-
   s.default_subspec = 'Main-iOS'
 
 
@@ -60,7 +59,7 @@ Pod::Spec.new do |s|
     ss.dependency 'ZendeskChatSDK', '2.11.1' # Chat only on the Unified SDK
   end
 
-  s.subspec "Notification-iOS"
+  s.subspec "Notification-iOS" do |ss|
     ss.dependency 'LykaPods/Core-iOS'
     ss.dependency 'LykaPods/Commons-iOS'
   end
