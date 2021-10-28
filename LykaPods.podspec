@@ -215,6 +215,7 @@ Pod::Spec.new do |s|
     ss.dependency 'LykaPods/Ultra-rate-iOS'
     ss.dependency 'LykaPods/Video-Cache-iOS'
     ss.dependency 'LykaPods/Wallet-iOS'
+    ss.dependency 'LykaPods/MirrorFly_SDK'
 
     ss.dependency 'UICircularProgressRing', '7.0.0'
     ss.dependency 'ActiveLabel', '1.1.0'
