@@ -228,6 +228,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Instabug','~> 10.0.3'
     ss.dependency 'AWSS3', '~> 2.19.0'
     ss.dependency 'AWSCore', '~> 2.19.0'
+    ss.dependency 'SteviaLayout', '4.7.3'
   end
 
 end
