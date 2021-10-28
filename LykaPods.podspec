@@ -225,8 +225,8 @@ Pod::Spec.new do |s|
     ss.dependency 'SAMKeychain', '1.5.3'
     ss.dependency 'Stripe', '19.1.1'
     ss.dependency 'Instabug','~> 10.0.3'
-    ss.dependency 'AWSS3', '2.19.1'
-    ss.dependency 'AWSCore', '2.19.1'
+    ss.dependency 'AWSS3', '~> 2.19.0'
+    ss.dependency 'AWSCore', '~> 2.19.0'
   end
 
 end
