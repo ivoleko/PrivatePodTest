@@ -147,7 +147,7 @@ Pod::Spec.new do |s|
     ss.dependency 'KILabel', '1.0.1' # To show links within text for chat messages
     ss.dependency 'MenuItemKit', '3.2.2' # To show menu when long press message like copy,paste
     ss.dependency 'FZAccordionTableView', '0.2.3' # To show expand and collapse in Chat message info
-    ss.dependency 'GPUImage', '~> 0.1' # To show blurred Thumb image when image is not yet downloaded
+    ss.dependency 'GPUImage', '0.1.7' # To show blurred Thumb image when image is not yet downloaded
     ss.dependency 'KKPinCodeTextField', '1.0.0' # To show OTP enter View
     ss.dependency 'TOCropViewController', '2.6.0' # To crop image for setting chat Theme.
     ss.dependency 'GrowingTextViewHandler', '~> 1.0.3' # To grow text when user types in chat page
