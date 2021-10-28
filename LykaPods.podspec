@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
 
   s.subspec "Community-iOS" do |ss|
     ss.dependency 'LykaPods/Commons-iOS'
-    ss.dependency 'LykaPods/FirebaseAnalytics', '7.11'
+    ss.dependency 'LykaPods/FirebaseAnalytics-Lyka'
     ss.dependency 'AssetsPickerViewController', '~> 2.9'
     ss.dependency 'BMPlayer', '1.3.2'
     ss.dependency 'SwiftyJSON', '4.3.0'
@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Realm', '10.12.0' # Local Database
     ss.dependency 'XMPPFramework', '~> 4.0.0' # To communicate with Ejabberd server
     ss.dependency 'libPhoneNumber-iOS', '~> 0.9.0'  # Mobile number validation & formatting
-    ss.dependency 'SVProgressHUD', '~> 2.2.5' # Loading animation
+    ss.dependency 'SVProgressHUD', '2.2.5' # Loading animation
     ss.dependency 'Socket.IO-Client-Swift', '~> 14.0.0' # To communicte Socket I/O server
     ss.dependency 'DBGHTMLEntities', '~> 1.1.1' # Easily Decode/Encode HTML entity strings used when we copy text from web
   end
